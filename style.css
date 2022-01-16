@@ -124,8 +124,10 @@ margin: 110px auto;
 
 .footer{
     background-color: rgb(244, 105, 244);
-    height: 250px;
+    display: flex;
+    /* height: 250px; */
     margin: 15px;
     align-items: center;
+    justify-content: center;
    
 }
