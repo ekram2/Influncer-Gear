@@ -1,0 +1,131 @@
+                  /* font awsome  link */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans&family=Poppins:wght@500&family=The+Nautigal&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+header{
+    width: 90%;
+    
+    
+}
+h3{
+    margin: 80px;
+}
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    margin: 10px;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 15px;
+}
+                                   /* SECTION one START */
+
+.section-one{
+    display:flex;
+    width: 90%;
+    margin: 30px auto;
+}
+button{
+    height: 29px;
+    width: 110px;
+    border-radius: 15px;
+    background-color: lightcoral;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+     width: 80%; 
+}
+.img{
+    background-image: url('./img/Circle\ design.svg');
+    width: 300px;
+    
+}
+ /* section two start  */
+
+h2{
+color: light deepskyblue;
+text-align: center;
+margin: 110px auto;
+}
+
+
+/* product list  */
+
+.product-list{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+    /* justify-content: center; */
+    margin: 10px auto;
+}
+.product-detail{
+    border:2px solid gray;
+    margin: 10px auto;
+  
+}
+.link{
+    text-decoration: none;
+    margin: 80%;
+    text-align: end;
+    color: rgb(27, 169, 216);
+}
+               /* Last section  */
+.last-part{
+    display: flex;
+    width: 90%;
+    margin: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    height: 100%;
+    width: 45%;
+
+}
+
+
+/* footer start  */
+
+
+.footer{
+    background-color: rgb(244, 105, 244);
+    height: 250px;
+    margin: 15px;
+    align-items: center;
+   
+}
